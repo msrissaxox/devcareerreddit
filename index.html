@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Career Feed</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dev Career Feed</h1>
+            <div class="subreddit-filters">
+                <button class="filter-btn active" data-subreddit="all">All</button>
+                <button class="filter-btn" data-subreddit="cscareerquestions">Career Questions</button>
+                <button class="filter-btn" data-subreddit="webdev">Web Dev</button>
+                <button class="filter-btn" data-subreddit="learnprogramming">Learn Programming</button>
+            </div>
+        </header>
+        
+        <main>
+            <div class="posts-container">
+                <!-- Posts will be dynamically inserted here -->
+                <div class="loading">Loading posts...</div>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
